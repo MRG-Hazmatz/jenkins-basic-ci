@@ -170,29 +170,34 @@ The `app.py` file is a simple Flask application that:
 1. Jenkins Dashboard
 Title: Jenkins Dashboard
 Explanation: Main Jenkins homepage showing the list of jobs and overall build status.
+
 https://github.com/MRG-Hazmatz/jenkins-basic-ci/blob/7acaa5d7ed8819e036fab2f22f57f97e0cc82731/portfolio-site/Screenshots/01-jenkins-dashboard.jpg
 
 
 2. Jenkins Triggers
 Title: Jenkins Build Triggers
 Explanation: The job configuration screen with "Poll SCM" selected to enable auto-builds on code changes.
+
 https://github.com/MRG-Hazmatz/jenkins-basic-ci/blob/97618f12482e2a2282b064d5fd2e6ff3a0fb39f0/portfolio-site/Screenshots/02-jenkins-triggers.jpg
 
 
 3. Jenkins Build Steps
 Title: Jenkins Build Steps
 Explanation: Build configuration showing shell commands for building and running the Dockerized Flask app.
+
 https://github.com/MRG-Hazmatz/jenkins-basic-ci/blob/97618f12482e2a2282b064d5fd2e6ff3a0fb39f0/portfolio-site/Screenshots/03-jenkins-build-steps.jpg
 
 
 4. Jenkins SCM
 Title: Jenkins SCM (Source Code Management)
 Explanation: Configuration showing GitHub repository URL and branch setup for code checkout.
+
 https://github.com/MRG-Hazmatz/jenkins-basic-ci/blob/97618f12482e2a2282b064d5fd2e6ff3a0fb39f0/portfolio-site/Screenshots/04-jenkins-scm.jpg
 
 5. Portfolio Running
 Title: Portfolio Site Running
 Explanation: The Flask portfolio application successfully running and accessible at localhost:5002.
+
 https://github.com/MRG-Hazmatz/jenkins-basic-ci/blob/97618f12482e2a2282b064d5fd2e6ff3a0fb39f0/portfolio-site/Screenshots/05-portfolio-running.jpg
 
 ## Next Steps
