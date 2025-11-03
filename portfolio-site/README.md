@@ -156,6 +156,22 @@ The `app.py` file is a simple Flask application that:
 
 ## Screenshots & Working Demonstrations
 
+Below are the Jenkins CI/CD execution screenshots for this project:
+
+### ✅ Jenkins Dashboard
+![Jenkins Dashboard](./screenshots/01-jenkins-dashboard.jpg)
+
+### 🔧 Source Code Management (Git Config)
+![SCM Config](./screenshots/04-jenkins-scm.jpg)
+
+### ⏱️ Build Triggers (Poll SCM)
+![Build Triggers](./screenshots/02-jenkins-triggers.jpg)
+
+### 🧱 Build Steps (Execute Shell)
+![Build Steps](./screenshots/03-jenkins-build-steps.jpg)
+
+### 🚀 Portfolio App Running in Browser
+![Portfolio Running](./screenshots/05-portfolio-running.jpg)
 ### 1. Jenkins Dashboard
 ![Jenkins Dashboard - Shows the home page with job pipeline](./screenshots/01-jenkins-dashboard.jpg)
 *Jenkins main dashboard with portfolio-site-build job configured*
@@ -183,31 +199,6 @@ The `app.py` file is a simple Flask application that:
 ### 7. Build Triggered by Poll SCM
 ![Auto Build Triggered - Jenkins automatically triggered build on code change](./screenshots/07-auto-build-triggered.jpg)
 *Jenkins build automatically triggered by Poll SCM after code push*
-
----
-
-## How to Add Screenshots
-
-1. Take screenshots of your working Jenkins setup (use Snip & Sketch or Print Screen)
-2. Save them as jpg files (e.g., `01-jenkins-dashboard.jpg`, `02-jenkins-job-config.jpg`, etc.)
-3. Create a `screenshots/` folder in your repository root:
-   ```
-   jenkins-basic-ci/
-   ├── screenshots/
-   │   ├── 01-jenkins-dashboard.jpg
-   │   ├── 02-jenkins-job-config.jpg
-   │   ├── 03-successful-build.jpg
-   │   ├── 04-build-console.jpg
-   │   ├── 05-docker-containers.jpg
-   │   ├── 06-portfolio-site-running.jpg
-   │   └── 07-auto-build-triggered.jpg
-   ├── portfolio-site/
-   ├── Jenkinsfile
-   ├── README.md
-   └── .gitignore
-   ```
-4. Push the screenshots folder to GitHub
-5. The screenshots will automatically display in the README on GitHub
 
 ---
 
