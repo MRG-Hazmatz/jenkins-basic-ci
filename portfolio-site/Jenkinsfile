@@ -1,0 +1,46 @@
+pipeline {
+    agent any
+    
+    stages {
+        stage('Clone Repository') {
+            steps {
+                echo 'Cloning the repository...'
+                checkout scm
+            }
+        }
+        
+        stage('Build Docker Image') {
+            steps {
+                echo 'Building Docker image for portfolio-site...'
+                dir('portfolio-site') {
+                    sh 'docker build -t portfolio-site:latest .'
+                }
+            }
+        }
+        
+        stage('Run Docker Container') {
+            steps {
+                echo 'Running Docker container on port 5002...'
+                sh 'docker run -d -p 5002:5000 portfolio-site:latest'
+            }
+        }
+        
+        stage('Verify Deployment') {
+            steps {
+                echo 'Verifying application is running...'
+                sh 'sleep 5'
+                sh 'curl -f http://localhost:5002 || exit 1'
+            }
+        }
+    }
+    
+    post {
+        success {
+            echo 'Pipeline executed successfully!'
+            echo 'Application available at http://localhost:5002'
+        }
+        failure {
+            echo 'Pipeline failed. Check logs above for details.'
+        }
+    }
+}
