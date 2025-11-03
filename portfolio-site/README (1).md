@@ -157,31 +157,31 @@ The `app.py` file is a simple Flask application that:
 ## Screenshots & Working Demonstrations
 
 ### 1. Jenkins Dashboard
-![Jenkins Dashboard - Shows the home page with job pipeline](./screenshots/01-jenkins-dashboard.png)
+![Jenkins Dashboard - Shows the home page with job pipeline](./screenshots/01-jenkins-dashboard.jpg)
 *Jenkins main dashboard with portfolio-site-build job configured*
 
 ### 2. Jenkins Job Configuration
-![Jenkins Job Configuration - Shows SCM and build trigger settings](./screenshots/02-jenkins-job-config.png)
+![Jenkins Job Configuration - Shows SCM and build trigger settings](./screenshots/02-jenkins-job-config.jpg)
 *Jenkins Freestyle job configuration with Git SCM and Poll SCM trigger*
 
 ### 3. Successful Build
-![Successful Build - Console output showing successful build steps](./screenshots/03-successful-build.png)
+![Successful Build - Console output showing successful build steps](./screenshots/03-successful-build.jpg)
 *Build console output showing successful Docker build and container deployment*
 
 ### 4. Build Console Output
-![Build Console - Detailed build execution logs](./screenshots/04-build-console.png)
+![Build Console - Detailed build execution logs](./screenshots/04-build-console.jpg)
 *Detailed console logs showing Git clone, Docker build, and container run commands*
 
 ### 5. Running Containers
-![Docker Containers - Shows running Jenkins and portfolio-site containers](./screenshots/05-docker-containers.png)
+![Docker Containers - Shows running Jenkins and portfolio-site containers](./screenshots/05-docker-containers.jpg)
 *PowerShell output of `docker ps` showing both Jenkins and portfolio-site running*
 
 ### 6. Application Running
-![Portfolio Site - Application accessible on localhost:5002](./screenshots/06-portfolio-site-running.png)
+![Portfolio Site - Application accessible on localhost:5002](./screenshots/06-portfolio-site-running.jpg)
 *Portfolio website running successfully at http://localhost:5002*
 
 ### 7. Build Triggered by Poll SCM
-![Auto Build Triggered - Jenkins automatically triggered build on code change](./screenshots/07-auto-build-triggered.png)
+![Auto Build Triggered - Jenkins automatically triggered build on code change](./screenshots/07-auto-build-triggered.jpg)
 *Jenkins build automatically triggered by Poll SCM after code push*
 
 ---
@@ -189,18 +189,18 @@ The `app.py` file is a simple Flask application that:
 ## How to Add Screenshots
 
 1. Take screenshots of your working Jenkins setup (use Snip & Sketch or Print Screen)
-2. Save them as PNG files (e.g., `01-jenkins-dashboard.png`, `02-jenkins-job-config.png`, etc.)
+2. Save them as jpg files (e.g., `01-jenkins-dashboard.jpg`, `02-jenkins-job-config.jpg`, etc.)
 3. Create a `screenshots/` folder in your repository root:
    ```
    jenkins-basic-ci/
    ├── screenshots/
-   │   ├── 01-jenkins-dashboard.png
-   │   ├── 02-jenkins-job-config.png
-   │   ├── 03-successful-build.png
-   │   ├── 04-build-console.png
-   │   ├── 05-docker-containers.png
-   │   ├── 06-portfolio-site-running.png
-   │   └── 07-auto-build-triggered.png
+   │   ├── 01-jenkins-dashboard.jpg
+   │   ├── 02-jenkins-job-config.jpg
+   │   ├── 03-successful-build.jpg
+   │   ├── 04-build-console.jpg
+   │   ├── 05-docker-containers.jpg
+   │   ├── 06-portfolio-site-running.jpg
+   │   └── 07-auto-build-triggered.jpg
    ├── portfolio-site/
    ├── Jenkinsfile
    ├── README.md
